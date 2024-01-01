@@ -12,13 +12,20 @@ Follow these simple steps to set up the Chat AI application:
 
 
 **Features**:
-Communicating with AI
+
+
+
+**Communicating with AI**
 Interact effortlessly with AI bots through an intuitive chat interface.
-Text to Speech:
+
+**Text to Speech:**
 Convert written text into spoken words with our built-in Text-to-Speech feature.
-Speech to Text:
+
+**Speech to Text:**
 Transform spoken words into text with the Speech-to-Text functionality.
-Camera Functionality and Audio Functionality:
+
+
+**Camera Functionality and Audio Functionality:**
 Enhance communication by visually conveying information.
 
 
