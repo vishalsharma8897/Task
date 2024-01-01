@@ -1,4 +1,4 @@
-export const host =  "http://localhost:8080" ;
+export const host =  "https://goodspace-backend-65qq.onrender.com";
 
 
 export const registerRoute = `${host}/api/auth/register`                            
