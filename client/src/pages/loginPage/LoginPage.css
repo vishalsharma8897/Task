@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.home-container{
+    background: url(../../assets/Background.png);
+    background-size: contain;
+    z-index: -1;
+    font-family: 'Poppins';
+}
+
+.container{
+    margin-left:100px;
+    margin-right:100px;
+    height: calc(100vh - 64px); /* Subtract the height of the navbar */
+    display: flex;
+    /* background-color: red; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

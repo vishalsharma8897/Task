@@ -1,0 +1,27 @@
+.bot-msg{
+    align-self: flex-start;
+    width:60%;
+}
+
+.bot-msg p{
+    color:black;
+    margin-left:30px;
+    font-size:10px;
+    font-weight: lighter;
+}
+
+.chat-bot-box{
+    width: 90%;
+    background: rgba(233, 233, 235, 1);
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 0.9em;
+    margin: 8px;
+    padding: 10px;
+}
+.chat-bot-box text-area{
+   font-size:0.7rem;
+   line-height: 0.7rem;
+   color: black;
+
+}
