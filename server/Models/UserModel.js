@@ -19,6 +19,15 @@ const userSchema = new mongoose.Schema({
         required:true,
         min:8,
     },
+    isAvatarImageSet : {
+        type:Boolean,
+        default:false,
+    },
+    avatarImage:{
+        type:String,
+        default:"",
+    }
+
 });
 
-module.exports= new mongoose.model("Users",userSchema);
+module.exports= new mongoose.model("RealUsers",userSchema);

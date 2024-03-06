@@ -2,22 +2,26 @@ const mongoose = require("mongoose");
 
 const messageSchema = new mongoose.Schema(
     {
-        message: {
-            type: String,
+    message:{
+        text:{
+            type: String,required:true,
         },
-        user: {
-            type: mongoose.Schema.Types.ObjectId,
-            ref: "Users",
-            required: true,
-        },
-        isAIgenerated: {
-            type: Boolean,
-            default: false
-        }
     },
+
+    users:Array,
+
+    sender:{
+            type:mongoose.Schema.Types.ObjectId,
+            ref:"RealUsers",
+            required:true,
+        },
+    },
+
     {
-        timestamps: true,
+        timestamps:true,
+
     }
+
 );
 
-module.exports = new mongoose.model("Messages", messageSchema);
+module.exports= new mongoose.model("RealMessages",messageSchema);

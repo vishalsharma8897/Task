@@ -1,0 +1,21 @@
+.user-msg{
+    align-self: flex-end;
+    width:60%;
+}
+.user-msg p{
+    color:black;
+    margin-left:30px;
+    font-size:10px;
+    font-weight: lighter;
+}
+
+.chat-user-box{
+    font-size:0.7rem;
+    line-height: 0.7rem;
+    width: 90%;
+    background: rgba(46, 157, 251, 1);
+    border-radius: 8px;
+    display: inline-block;
+    margin:8px 8px;
+    padding: 10px;
+}

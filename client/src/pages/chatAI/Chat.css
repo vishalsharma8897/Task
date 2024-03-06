@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.chat-page{
+    background: url(../../assets/background2.png);
+    background-size: contain;
+    z-index: -1;
+    font-family: 'Montserrat';
+    width: 100vw;
+    height: 100vh;
+}
+
+.chat-container{
+    margin-left:50px;
+    margin-top:20px;
+    margin-bottom:20px;
+    width: 60vw;
+    height: 50vh;
+    background-color: transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+    padding:10px 10px 5px 10px;
+    /* overflow-y:visible; */
+}
+
+.chat-msg-box{
+    display: flex;
+    flex-direction: column;
+    max-height: 40vh;  /* Adjust this value as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+.chat-input-box{
+    margin-top:8px;
+    background-color: rgba(255,255,255,0.3);
+    border:1px solid rgba(255,255,255,0.3);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.chat-input{
+    width: 90%;
+    padding:10px;
+    background-color: transparent;
+    color:black;
+    border: none;
+    outline:none;
+    color:white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.chat-input:foucs{
+    outline:none;
+    background-color:rgba(255,255,255,0.5);
+   
+}
+
+.chat-input-btn{
+    background: rgba(46, 157, 251, 1);
+    outline:none;
+    border-radius:7px;
+    border:none;
+    width: 29px;
+    padding:5px;
+}
+
+.side{
+    display: flex;
+    align-items: center;
+    gap:6px;
+}
+
+.chat-input-btn img{
+    width: 10px;
+}
+
+.SpeechToText{
+    width: 60vw;
+    margin-left:50px;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.person-start-listen{
+    padding:10px 25px;
+    margin-left:30px;
+    margin-right:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 100%;
+    width: 60%;
+    background-color: transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+}
+
+.person-img{
+   width: 220px;
+   height: 130px;
+}
+.start-btn-speech{
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-btn-speech:hover{
+   box-shadow: 10px 25px 25px rgba(255,255,255,0.3);
+}
+
+.start-btn-speech button img{
+   width: 40px;
+}
+.start-btn-speech button{
+    padding:20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background: rgba(46, 157, 251, 1);
+    border-radius: 100%;
+    border:15px solid  rgba(0, 0,0,0.4);
+}
+
+
+.stop-btn{
+    background-color: transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:17%;
+}
+
+.stop-btn button{
+    padding:18px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    background: rgba(46, 157, 251, 1);
+    border-radius: 100%;
+    border:15px solid  rgba(0, 0,0,0.4);
+}
+
+.stop-btn button img{
+    width: 40px;
+}
+.stop-btn:hover{
+    box-shadow: 10px 25px 25px rgba(255,255,255,0.3);
+ }
+.btn-text{
+    font-size:0.7rem;
+    font-weight: bold;
+}
+
+video{
+    width: 220px;
+   height: 130px;
+}
