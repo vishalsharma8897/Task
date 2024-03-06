@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const openAi = require("openai");
 const MessagesAI = require('../Models/MessageAIModel');
-const Messages = require('../Models/messageModel')
+const Messages = require('../Models/MessageModel')
 require("dotenv").config();
 
 const openai = new openAi({
